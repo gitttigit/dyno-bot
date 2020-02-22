@@ -1,0 +1,30 @@
+{
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
+  "version": "0.0.1",
+  "description": "Only Code tarafından yapılmış bir hazır altyapı.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.1",
+    "node-source-rcon": "^0.1.2",
+    "request": "^2.88.0",
+    "base64-img": "^1.0.4",
+    "wolfram-alpha-api": "^0.2.1"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/altyapi-bos-pompala-cos"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
